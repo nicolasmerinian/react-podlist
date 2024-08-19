@@ -1,0 +1,32 @@
+.Podlist > div {
+    display: flex;
+    flex-direction: row;
+    line-height: 10rem;
+}
+
+.Podlist textarea {
+    height: 10rem;
+    width: 20rem;
+}
+
+.Podlist button {
+    cursor: pointer;
+}
+
+.Podlist .pods-10 {
+    background-color: rgb(255, 199, 199);
+    color: rgb(141, 49, 49)
+}
+
+.Podlist ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.Podlist li {
+    background-color: rgb(215, 215, 215);
+    margin: .1rem .1rem;
+    padding: .5rem;
+}
